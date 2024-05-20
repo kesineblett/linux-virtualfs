@@ -1,0 +1,5 @@
+#!/bin/bash
+
+make
+sudo insmod lwnfs.ko
+sudo mount -t lwnfs none ./mnt
